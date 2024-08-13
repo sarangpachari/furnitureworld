@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture World</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <input type="checkbox" id="openMenu" />
+          <label for="openMenu" class="checkbox-icons">
+            <i class="fa-solid fa-bars menu-icon"></i>
+            <i class="fa-solid fa-x close-icon"></i>
+          </label>
+          <div class="menu-items-container">
+            <div class="menu-items">
+              <div>
+                <a href="">HOME</a>
+              </div>
+              <div>
+                <a href="">PRODUCTS</a>
+              </div>
+              <div>
+                <a href="">ACCESORIES</a>
+              </div>
+              <div>
+                <a href="">BLOG</a>
+              </div>
+              <div>
+                <a href="">PAGES</a>
+              </div>
+              <div>
+                <a href="">ABOUT US</a>
+              </div>
+              <div>
+                <a href="">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#home"
+          ><img src="assets/logo.png" alt="" class="brand-logo"
+        /></a>
+        <i class="fa-solid fa-cart-shopping cart-icon"></i>
+      </nav>
+    </header>
+
+    <div id="home">
+      <div class="home-container">
+        <div class="left-bar">
+          <i class="fa-solid fa-square-envelope mail-icon"></i>
+          <i class="fa-brands fa-square-instagram instagram-icon"></i>
+          <i class="fa-brands fa-facebook facebook-icon"></i>
+          <i class="fa-brands fa-square-whatsapp whatsapp-icon"></i>
+        </div>
+        <div class="center-section">
+          <!-- <div class="center-section-1">
+            <div>
+                <h3>$56.40</h3>
+            </div>
+            <div></div>
+          </div> -->
+          <div class="center-section-2">
+            <div></div>
+            <div class="center-section-2-2">
+              <h2 class="animate__animated animate__fadeInDown">WELCOME TO OUR</h2>
+              <h1 class="animate__animated animate__fadeInDown">FURNITURE</h1>
+              <h2 class="animate__animated animate__fadeInDown">WORLD 2024</h2>
+              <p class="animate__animated animate__fadeInDown">
+                There are many variations of passages of Lorem Ipsum available,
+                but <br />
+                the majority have suffered alteration in some form, by injected
+                humour, <br />
+                or randomised words which don't look even slightly believable
+              </p>
+              <button class="animate__animated animate__fadeInDown">SHOP NOW</button>
+            </div>
+          </div>
+          <!-- <div class="center-section-3"></div> -->
+        </div>
+        <div class="right-bar">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <i class="fa-solid fa-lock login-icon"></i>
+          <i class="fa-solid fa-user user-icon"></i>
+          <i class="fa-solid fa-heart wishlist-icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div id="products">
+      <h1>Featured Products</h1>
+      <hr class="head-underline" />
+      <div class="products-container">
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/1.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/2.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/3.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/4.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offer-banner" data-aos="zoom-in">
+      <img src="assets/1 (1).webp" alt="" />
+    </div>
+    <div id="products">
+      <h1>Purchase Online on Furniture World</h1>
+      <hr class="head-underline" />
+      <div class="products-container">
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/5.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/6.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/3 (1).webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/7.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/1 (4).webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/2 (1).webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/8.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" data-aos="flip-right">
+          <div class="card-img">
+            <img src="assets/9.webp" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="prod-name-category">
+              <h5 style="color: rgb(68, 67, 67)">DUMMY PRODUCT NAME</h5>
+              <h5>Furniture</h5>
+            </div>
+            <div class="prod-price-rating">
+              <div class="prod-price">
+                <h3>$56.40</h3>
+              </div>
+              <div class="star-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-1">
+          <h3>CONTACT US</h3>
+          <hr class="footer-underline" />
+          <div class="footer-1-contents">
+            <div class="footer-1-contents-1">
+              <p>Address :</p>
+              <p>Phone :</p>
+              <p>Email :</p>
+            </div>
+            <div class="footer-1-contents-2">
+              <p>
+                28 Green Tower, Street Name,<br />
+                New York City, USA
+              </p>
+              <p>012345 - 123456789</p>
+              <p>your-email@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-2">
+          <h3>ACCOUNTS</h3>
+          <hr class="footer-underline" />
+          <div class="footer-2-contents">
+            <a href="">My Account</a>
+            <a href="">My Wishlist</a>
+            <a href="">My Cart</a>
+            <a href="">Sign In</a>
+            <a href="">Check out</a>
+          </div>
+        </div>
+        <div class="footer-3">
+          <h3>SHIPPING</h3>
+          <hr class="footer-underline" />
+          <div class="footer-3-contents">
+            <a href="">New Products</a>
+            <a href="">Top Sellers</a>
+            <a href="">Manufactirers</a>
+            <a href="">Suppliers</a>
+            <a href="">Specials</a>
+          </div>
+        </div>
+        <div class="footer-4">
+          <h3>YOUR CHOICE PRODUCTS</h3>
+          <hr class="footer-underline" />
+          <div class="footer-4-contents">
+            <img src="assets/1 (2).webp" alt="" />
+            <img src="assets/1 (3).webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
